@@ -21,14 +21,15 @@ public class Addition {
     }
 
     /**
-     * Do addition and display result
+     * Do addition and display result and return it
      * @param integer1 the first number
      * @param integer2 the second number
      */
 
-    public void performAddition(int integer1, int integer2) {
+    public int performAddition(int integer1, int integer2) {
         int addition = integer1 + integer2;
         System.out.println("Le résultat est " + addition);
+        return addition;
     }
 
 }
